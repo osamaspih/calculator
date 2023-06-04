@@ -1,0 +1,170 @@
+/* * {
+  margin: auto;
+  padding: 0;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 28px;
+}
+.main {
+  width: 350px;
+  height: 350px;
+  margin-top: 20px;
+}
+.calculator {
+  border-radius: 10px;
+  width: 350px;
+  flex-direction: column;
+  height: 520px;
+  background-color: rgba(70, 69, 68, 0.241);
+  margin: auto;
+  justify-self: start;
+}
+.screen {
+  margin-top: -2px;
+  width: 96%;
+  height: 70px;
+  display: block;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+input {
+  margin-top: 50px;
+}
+.num-keys {
+  display: block;
+}
+.key-row {
+  display: flex;
+  flex-direction: row;
+  width: 340px;
+  align-self: start;
+  margin-top: 20px;
+}
+.key-row3 {
+  flex-direction: row;
+  width: 340px;
+  align-self: center;
+  
+}
+.key-row3 > button { 
+  margin-right: -5px;
+  margin-top: 20px;
+}
+button {
+  width: 23%;
+  height: 70px;
+  border-radius: 5px;
+}
+
+/*  */
+
+/* .C {
+  background-color: #ff0001 !important;
+}
+.del {
+  background-color: #f19e02 !important;
+}
+.M {
+  background-color: #c0014a !important;
+}
+.z {
+  background-color: #3168d1 !important;
+}
+.i {
+  background-color: #017804 !important;
+  height: 160px;
+  margin-top: -90;
+  margin-left: 25px;
+}
+.num-keys button {
+  background-color: #5b5a5f;
+}
+.keys0 {
+  background-color: black !important;
+  width: 45%;
+} */ 
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular';
+  box-sizing: border-box;
+ }
+ body{
+  background: #ffffff;
+ }
+ .main{
+  background: rgba(70, 69, 68, 0.241);
+  text-align: center;
+  width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 10px;
+ }
+ form{
+  padding: 0 5px;
+  margin-bottom: 20px;
+   }
+ .screen{
+  font-size: 24px;
+  border-radius: 5px;
+  width: 100%;
+  height: 80px;
+  padding: 0 10px;
+  pointer-events: none;
+ }
+ .key-row:before, .key-row:after{
+  content: '';
+  display: table;
+  clear: both;
+  width: 100%;
+ }
+ .col-3{
+  width: 25%;
+  padding: 5px;
+  float: left;
+ }
+ .col-6{
+  width: 50%;
+  padding: 5px;
+  float: left;
+ }
+ .button{
+  border: 3px solid #000;
+  width: 100%;
+  border-radius: 5px;
+  height: 80px;
+  outline: none;  
+  color: white;
+  background-color: #5b5a5f;
+ }
+ .button.top-button{
+  background: #ff0001; 
+  color: #fff;
+ }
+ .del{
+  background-color: #f19e02 !important;
+ }
+ .blue{
+  background-color: #3168d1 !important;
+ }
+ .button.equal{
+  background: #017804;
+  color: #fff;
+  font-size: 22px;
+  height: 170px;
+  margin-top: -90px;
+  
+ }
+ .button.operator{
+  background: #c0014a; 
+  color: #fff;
+  font-size: 20px;
+ }
+.black{
+  background-color: black;
+}
